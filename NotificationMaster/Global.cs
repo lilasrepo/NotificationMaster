@@ -1,4 +1,4 @@
-﻿global using Dalamud.Game.ClientState.Conditions;
+global using Dalamud.Game.ClientState.Conditions;
 global using Dalamud.Interface;
 global using Dalamud.Interface.Colors;
 global using Dalamud.Interface.Windowing;
@@ -8,7 +8,7 @@ global using ECommons.DalamudServices;
 global using ECommons.ImGuiMethods;
 global using ECommons.Logging;
 global using ECommons.Schedulers;
-global using Dalamud.Bindings.ImGui;
+global using ImGuiNET;
 global using System;
 global using System.Collections.Generic;
 global using System.Linq;
