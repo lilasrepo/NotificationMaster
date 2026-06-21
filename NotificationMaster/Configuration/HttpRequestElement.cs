@@ -3,7 +3,8 @@
 [Serializable]
 internal class HttpRequestElement
 {
-    public int type = 0;
+    // porting-note: upstream renamed this field `type` -> `Type` for the HttpMaster feature.
+    public int Type = 0;
     public string URI = "";
     public string Content = "";
 }

@@ -1,0 +1,9 @@
+# Pinned 2026-06-19: recurring HttpMaster-feature fixes lost/broken by the 3-way merge each refresh.
+# - Configuration/HttpRequestElement.cs: TC-only definition file (upstream uses HttpRequestElement but
+#   ships no definition at the pinned anchor — transient upstream state); the merge drops the ours-only
+#   file. Field is `Type` (upstream renamed from `type`).
+# - NotificationMasterAPI/.../NMAPINames.cs: gap-fill for upstream's new IsGameWindowActivated +
+#   SendHttpRequest IPC channel-name constants (referenced by IPC.cs EzIPC attributes).
+# See FORWARD_PORT_REFERENCE.md NotificationMaster entry.
+NotificationMaster/Configuration/HttpRequestElement.cs
+NotificationMasterAPI/NotificationMasterAPI/NMAPINames.cs
